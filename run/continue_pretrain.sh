@@ -1,0 +1,12 @@
+python ../src/ee_run.py \
+--cuda_id 3 \
+--multi_gpu \
+--do_train \
+--pretrain_mode \
+--use_new_mode \
+--save_model 'bart_pretrain' \
+--save_interval 100 \
+--epochs 10 \
+--batch_size 32 \
+--do_schedule \
+--describe 'pretrain on original bart.'
